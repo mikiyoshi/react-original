@@ -1,3 +1,28 @@
+# Deploy React App at Github pages
+
+[React App at Github pages](https://mikiyoshi.github.io/react-original)
+
+- install gh-pages
+
+```
+npm install gh-pages --save-dev
+```
+
+- update package.json
+
+```
+  "homepage": "https://mikiyoshi.github.io/react-original"
+
+```
+
+and
+
+```
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
